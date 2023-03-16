@@ -46,3 +46,16 @@ Contributions are welcome! If you find any bugs or issues, please open an issue 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Code Sample Description
+
+This code does the following:
+
+Defines the name and version of the Go application.
+Sets up the Keploy client using the Keploy API key and secret stored in environment variables.
+Builds the Go binary.
+Creates a new release in Keploy.
+Uploads the binary to the release in Keploy.
+Deploys the release to the environment specified in an environment variable.
+Starts an HTTP server listening on port 8080.
+Prints the deployment status.
